@@ -123,5 +123,11 @@ public class JavaListsReview {
         System.out.println(Arrays.toString(moreNames));
 
 
+        //the difference in behavior of the toString() method for arrays and
+        // ArrayLists is due to the fact that arrays are a fundamental part of the Java language,
+        // while ArrayList is a class in the Java Collections Framework that has its own implementation
+        // of the toString() method.
+
+
     }
 }
