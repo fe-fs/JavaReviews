@@ -59,6 +59,8 @@ public class JavaSingletonDesignPatternReview {
     //access this method at the time - BUT NOT GOOD TO USE BECAUSE SLOWS THINGS
         public static /*synchronized*/ JavaSingletonDesignPatternReview getInstance(){
 
+            /*What is Singleton Pattern?
+            >>It is used when you want to eliminate the option of instatiating more than one object*/
             //the only way to come here and create a new singleton is if there is nothing created already
             if(firstInstance == null){
 
